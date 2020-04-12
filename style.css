@@ -15,7 +15,7 @@
   margin: 50px auto;
   /* background-color: plum; */
 }
-/* リスト */
+
 .lists{
   widows: 100%;
   margin-bottom: 50px;
@@ -32,9 +32,6 @@
 }
 
 
-
-
-/* ボックス */
 .boxes{
   width: 100%;
   /* background-color: indianred; */
