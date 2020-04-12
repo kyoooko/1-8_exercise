@@ -10,16 +10,66 @@
   clear: both;
 }
 
-/* ヘッダー */
-header {
-}
-
-/* メイン */
-.main {
+.container{
+  width: 960px;
+  margin: 50px auto;
+  /* background-color: plum; */
   
 }
 
-/* フッター */
-footer{
+.lists{
+  widows: 100%;
+  margin-bottom: 50px;
+}
+.list{
+  list-style: none;
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  padding-left: 20px;
+  /* background-color: aqua; */
+}
+.list:nth-child(odd){
+  background-color:#eee;
+}
+
+
+.boxes{
+  width: 100%;
+  /* background-color: indianred; */
+}
+.box{
+  width: 30%;
+  height: 200px;
+  float:left;
+  background-color: #ffd700;
+}
+.box:nth-child(1){
+  margin-right:5%;
+  margin-bottom: 40px;
+  background-color: #ff8c00;;
+
+}
+.box:nth-child(2){
+  margin-right:5%;
+  margin-bottom: 40px;
+}
+.box:nth-child(4){
+  margin-right:5%;
+  margin-bottom: 40px;
+}
+.box:nth-child(5){
+  margin-right:5%;
+  margin-bottom: 40px;
+  background-color: #ff8c00;
+}
+.box:nth-child(7){
+  margin-right:5%;
+}
+.box:nth-child(8){
+  margin-right:5%;
+}
+.box:nth-child(9){
+  background-color: #ff8c00;;
   
 }
+
